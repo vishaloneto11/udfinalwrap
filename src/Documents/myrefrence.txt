@@ -1,2 +1,9 @@
 This is refrence of my angular all base is here
 https://blog.angular-university.io/angular-2-tutorial-list/
+
+# REAL DOM VS VIRTUAL DOM :
+https://www.geeksforgeeks.org/difference-between-virtual-dom-and-real-dom/
+
+#CSR vs SSR:
+
+#SPA(Single Page Application define it):

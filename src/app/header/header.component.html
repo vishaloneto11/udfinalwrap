@@ -1,0 +1,40 @@
+<div>
+    <p>
+        The Server name is <mark><strong>{{serverName}}</strong> </mark> and its number is
+        <mark><strong>{{serverPort}}</strong></mark>; <span>
+            <button type="button" class="btn btn-secondary btn-sm"
+                (click)="onserverChange()">OnbuttonClick</button></span>
+    </p>
+</div>
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <input type="text" class="form-control" placeholder="Enter Your Value" aria-label="Username"
+                aria-describedby="basic-addon1" (input)="ontakingValue($event)">
+        </div>
+        <div class="col-md-4" *ngIf="isloggedIn; else noserver">
+            <p [ngStyle]="{backgroundColor:'red'}">Getting the Input value via $ : {{value}}</p>
+            <!-- <button type="button" class="btn btn-primary ">Submit</button> -->
+        </div>
+        <ng-template #noserver>
+            <div class="col-md-4">
+                <p>Please Enter the value: </p>
+
+            </div>
+
+
+        </ng-template>
+
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-8">
+            <input type="text" class="form-control" placeholder="Two way" aria-label="Username"
+                aria-describedby="basic-addon1" [(ngModel)]="mytwin">
+        </div>
+        <div class="col-md-4">
+            <p>{{mytwin}}</p>
+        </div>
+    </div>
+</div>
