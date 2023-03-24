@@ -1,12 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
-
+    /* background-image: linear-gradient(rgb(221, 33, 33), rgb(255, 255, 237)); */
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
 }
 
 .myheader {
     /* background-color: aqua; */
-    /* height: 50px; */
+    /* height: 80px; */
     /* border: 1px solid black; */
 }
 

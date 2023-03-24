@@ -1,0 +1,8 @@
+.grad1 {
+    height: 365px;
+    background-color: red;
+    /* background-image: linear-gradient(rgb(237, 215, 215), rgb(38, 38, 36)); */
+    background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+    text-align: center;
+
+}
