@@ -11,6 +11,14 @@ export class HeaderComponent {
   value: string = ' ';
   mytwin: string = ' ';
   isloggedIn: boolean = false;
+
+  serverStatus: any = 'offline';
+
+  constructor() {
+    let a = this.serverStatus = Math.random() > 0.5 ? 'online' : 'offline';
+    console.log(a)
+  }
+
   onserverChange() {
     this.serverPort = 4500;
   };
@@ -22,6 +30,7 @@ export class HeaderComponent {
 
   };
   getcolor() {
-
+    // ternariary operator
+    return this.serverStatus === 'online' ? 'green' : 'red';
   }
 }

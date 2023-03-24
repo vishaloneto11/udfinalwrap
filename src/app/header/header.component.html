@@ -14,12 +14,12 @@
                 aria-describedby="basic-addon1" (input)="ontakingValue($event)">
         </div>
         <div class="col-md-4" *ngIf="isloggedIn; else noserver">
-            <p [ngStyle]="{backgroundColor:'red'}">Getting the Input value via $ : {{value}}</p>
+            <p>Getting the Input value via $ : {{value}}</p>
             <!-- <button type="button" class="btn btn-primary ">Submit</button> -->
         </div>
         <ng-template #noserver>
             <div class="col-md-4">
-                <p>Please Enter the value: </p>
+                <p [ngStyle]="{backgroundColor:getcolor()}">Please Enter the value: {{serverStatus}}</p>
 
             </div>
 
