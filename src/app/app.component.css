@@ -19,17 +19,17 @@
 .myleftsection {
     /* background-color: brown; */
     height: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .myrightsection {
     /* background-color: black; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 500px;
 }
 
 .footer {
     /* background-color: tan; */
     height: 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }

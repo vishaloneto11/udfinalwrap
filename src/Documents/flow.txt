@@ -1,4 +1,4 @@
-#23/3/23
+#23/3/2023
 today i completed the flow of angular via nisha singla mam.
 some more concepts of array and so-on via youtube , check the angular folder.
 
@@ -7,4 +7,5 @@ before take the nebula projects :
 
 $TOP PRIORITY:
 1. The main flow now is Udemy Course .just complete it and syns by Angular.io main refrence see the REGISTER FLOW.
-2. 
+2. 27-march :-
+3. till the receipe book phase1 completed

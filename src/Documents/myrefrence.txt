@@ -7,3 +7,6 @@ https://www.geeksforgeeks.org/difference-between-virtual-dom-and-real-dom/
 #CSR vs SSR:
 
 #SPA(Single Page Application define it):
+
+#for online images 
+https://simpleguics2pygame.readthedocs.io/en/latest/_static/links/img_links.html

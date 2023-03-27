@@ -1,1 +1,10 @@
-<p>shoppinglist works!</p>
+<div class="row">
+    <div class="col md-12">
+        <app-shoppingedit></app-shoppingedit>
+        <hr>
+        <ul class="list-group">
+            <a href="" class="list-group-item" *ngFor="let item of ingredent">{{item.name}}</a>
+        </ul>
+
+    </div>
+</div>
